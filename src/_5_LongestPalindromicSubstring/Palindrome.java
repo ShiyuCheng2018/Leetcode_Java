@@ -7,6 +7,10 @@ public class Palindrome {
         centralExtension(text);
     }
 
+    public void centralExtensionOpti_test(String text) {
+        centralExtensionOpti(text);
+    }
+
     public String centralExtension(String text) {
         if (text == null || text.length() == 0) {
             return "";
@@ -35,7 +39,7 @@ public class Palindrome {
 
         }
 
-        System.out.println(result.replace("#", ""));
+        System.out.println("最长回文串为: " + result.replace("#", ""));
         return result.replace("#", "");
     }
 
@@ -54,4 +58,30 @@ public class Palindrome {
         return length;
     }
 
+    public String centralExtensionOpti(String text) {
+        String result = "";
+
+        for (int i = 0; i < text.length(); i++) {
+            String str_1 = extensionRoundOpti(text, i, i);
+            String str_2 = extensionRoundOpti(text, i, i + 1);
+
+            result = result.length() < str_1.length() ? str_1 : result;
+            result = result.length() < str_2.length() ? str_2 : result;
+
+        }
+
+        System.out.println("最长回文串为: " + result);
+        return result;
+    }
+
+    private String extensionRoundOpti(String arr, int left, int right) {
+
+        while (left >= 0 && right < arr.length() && arr.charAt(left) == arr.charAt(right)) {
+            // 向俩边拓展
+            left--;
+            right++;
+        }
+
+        return arr.substring(left + 1, right);
+    }
 }
