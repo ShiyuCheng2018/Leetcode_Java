@@ -25,7 +25,6 @@ public class Solution {
                 // decrease left from dict by 1, since we need to shrink the window
                 frequencyMap.put(left, frequencyMap.get(left) - 1);
                 windowStart++;
-
             }
             maxLength = Math.max(maxLength, windowEnd - windowStart +1);
         }
