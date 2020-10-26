@@ -1,4 +1,4 @@
-package LongestSubstringWithSameLettersAfterReplacement;
+package _424_LongestSubstringWithSameLettersAfterReplacement;
 
 import java.util.HashMap;
 

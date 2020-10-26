@@ -1,4 +1,4 @@
-package LongestSubstringWithSameLettersAfterReplacement;
+package _424_LongestSubstringWithSameLettersAfterReplacement;
 
 public class Test {
     public static void main(String[] args){
