@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb362ff6-87cb-4c22-92ea-75d4f44f9332" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_76_MinimumWindowSubstring/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_76_MinimumWindowSubstring/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_30_SubstringWithConcatenationOfAllWords/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_30_SubstringWithConcatenationOfAllWords/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_76_MinimumWindowSubstring/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_76_MinimumWindowSubstring/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_76_MinimumWindowSubstring/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+            <state relative-caret-position="-171">
+              <caret line="11" column="67" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,11 +28,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_76_MinimumWindowSubstring/Test.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_30_SubstringWithConcatenationOfAllWords/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="13" selection-end-column="43" />
+            <state relative-caret-position="495">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+              <folding>
+                <element signature="e#400#409#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_30_SubstringWithConcatenationOfAllWords/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -84,6 +97,8 @@
         <option value="$PROJECT_DIR$/src/_438_FindAllAnagramsInString/Solution.java" />
         <option value="$PROJECT_DIR$/src/_76_MinimumWindowSubstring/Test.java" />
         <option value="$PROJECT_DIR$/src/_76_MinimumWindowSubstring/Solution.java" />
+        <option value="$PROJECT_DIR$/src/_30_SubstringWithConcatenationOfAllWords/Test.java" />
+        <option value="$PROJECT_DIR$/src/_30_SubstringWithConcatenationOfAllWords/Solution.java" />
       </list>
     </option>
   </component>
@@ -114,18 +129,6 @@
               <item name="Leetcode_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode_java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_56_MergeIntervals" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_76_MinimumWindowSubstring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="_438_FindAllAnagramsInString" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -138,7 +141,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603789396022" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603866422127" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
@@ -153,13 +156,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_56_MergeIntervals.Test" />
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_30_SubstringWithConcatenationOfAllWords.Test" />
       <module name="Leetcode_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_56_MergeIntervals.*" />
+          <option name="PATTERN" value="_30_SubstringWithConcatenationOfAllWords.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,19 +223,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test (2)" />
       <item itemvalue="Application.Test (3)" />
       <item itemvalue="Application.Test (4)" />
       <item itemvalue="Application.Test (5)" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test (5)" />
         <item itemvalue="Application.Test (5)" />
         <item itemvalue="Application.Test (4)" />
-        <item itemvalue="Application.Test (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -250,12 +253,12 @@
       <workItem from="1592983069427" duration="95000" />
       <workItem from="1595471326260" duration="94000" />
       <workItem from="1595556394031" duration="521000" />
-      <workItem from="1603445808539" duration="59898000" />
+      <workItem from="1603445808539" duration="75057000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66055000" />
+    <option name="totallyTimeSpent" value="81214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -271,12 +274,12 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30722892" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28554216" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14096385" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4493976" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -512,10 +515,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_76_MinimumWindowSubstring/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+        <state relative-caret-position="-171">
+          <caret line="11" column="67" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_30_SubstringWithConcatenationOfAllWords/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_30_SubstringWithConcatenationOfAllWords/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          <folding>
+            <element signature="e#400#409#0" expanded="true" />
           </folding>
         </state>
       </provider>

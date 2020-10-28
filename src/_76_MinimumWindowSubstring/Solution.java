@@ -18,7 +18,6 @@ public class Solution {
         String minimumString = "";
 
         for (int windowStart = 0, windowEnd = 0, matchCount = 0; windowEnd < str.length(); windowEnd++) {
-
             // get the right edge of the window
             char right = str.charAt(windowEnd);
             if (frequencyMap.containsKey(right)) {
@@ -40,10 +39,8 @@ public class Solution {
                         windowStart++;
                         left = str.charAt(windowStart);
                     }
-
                 }
             }
-
             // see if it meets the requirement
             if (matchCount == frequencyMap.size()) {
                 String windowString = str.substring(windowStart, windowEnd + 1);
