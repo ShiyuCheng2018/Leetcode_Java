@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb362ff6-87cb-4c22-92ea-75d4f44f9332" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_26_RemoveDuplicateFromSortedArray/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_977_SquaresOfASortedArray/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,10 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/_26_RemoveDuplicateFromSortedArray/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/_977_SquaresOfASortedArray/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="360">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -74,6 +74,7 @@
         <option value="$PROJECT_DIR$/src/_30_SubstringWithConcatenationOfAllWords/Test.java" />
         <option value="$PROJECT_DIR$/src/_30_SubstringWithConcatenationOfAllWords/Solution.java" />
         <option value="$PROJECT_DIR$/src/_26_RemoveDuplicateFromSortedArray/Solution.java" />
+        <option value="$PROJECT_DIR$/src/_977_SquaresOfASortedArray/Solution.java" />
       </list>
     </option>
   </component>
@@ -110,7 +111,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603937038223" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603944878874" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
@@ -222,12 +223,12 @@
       <workItem from="1592983069427" duration="95000" />
       <workItem from="1595471326260" duration="94000" />
       <workItem from="1595556394031" duration="521000" />
-      <workItem from="1603445808539" duration="76920000" />
+      <workItem from="1603445808539" duration="77830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83077000" />
+    <option name="totallyTimeSpent" value="83987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -513,6 +514,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_977_SquaresOfASortedArray/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
     </entry>
