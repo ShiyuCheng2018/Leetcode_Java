@@ -19,12 +19,7 @@ public class Solution {
         LinkedList<int[]> result = new LinkedList();
 
         for(int[] interval : intervals){
-            if(result.isEmpty() || result.getLast()[1] < interval[0]){ // first condition
-                result.add(interval); // add the new interval
-            }else{ // under the second condition:
-                   // ! result.isEmpty() && result.getLast()[1] > interval[0]
-                result.getLast()[1] = Math.max(result.getLast()[1], interval[1]);
-            }
+            _57_InsertInterval.Solution.merge(interval, result);
         }
 
         return result.toArray(new int[result.size()][]);
