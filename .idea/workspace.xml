@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb362ff6-87cb-4c22-92ea-75d4f44f9332" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_162_FindPeakElement/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_33_SearchRotatedArray/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_33_SearchRotatedArray/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_46_Permutations/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,20 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_33_SearchRotatedArray/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/_162_FindPeakElement/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/_46_Permutations/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,6 +89,8 @@
         <option value="$PROJECT_DIR$/src/_33_SearchRotatedArray/Test.java" />
         <option value="$PROJECT_DIR$/src/_33_SearchRotatedArray/Solution.java" />
         <option value="$PROJECT_DIR$/src/_162_FindPeakElement/Solution.java" />
+        <option value="$PROJECT_DIR$/src/_46_Permutations/findPermutations.java" />
+        <option value="$PROJECT_DIR$/src/_46_Permutations/Solution.java" />
       </list>
     </option>
   </component>
@@ -123,6 +117,12 @@
               <item name="Leetcode_java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Leetcode_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_46_Permutations" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -134,7 +134,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606009571942" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606020358301" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -248,17 +248,18 @@
       <workItem from="1595471326260" duration="94000" />
       <workItem from="1595556394031" duration="521000" />
       <workItem from="1603445808539" duration="96222000" />
-      <workItem from="1605993915749" duration="9727000" />
+      <workItem from="1605993915749" duration="12170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112106000" />
+    <option name="totallyTimeSpent" value="114549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15236051" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15236051" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -273,7 +274,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40361446" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40361446" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.26385543" />
@@ -608,6 +609,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/_162_FindPeakElement/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/_33_SearchRotatedArray/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-57">
@@ -615,10 +623,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_162_FindPeakElement/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/_46_Permutations/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
